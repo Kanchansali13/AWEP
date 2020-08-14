@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="wht.css">
+    <script src="wht.js"></script>
+    <title>whatsapp</title>
+</head>
+
+<body>
+    <div style="background: beige;height: 100vh;display: flex;justify-content: center;align-items: center;">
+
+        <div class="page1">
+            <div style="background: #075E54;height: 90px;width: 100%;margin-top: 20px;display: flex;">
+                <div style="display: flex;"><img id="img1" src="profile.jpg" alt=""></div>
+                <div
+                    style="display: flex;width: 140px;color: blanchedalmond;justify-content: flex-end;align-items: flex-start;font-size: 14px;flex-direction: column;">
+                    <div style="display: flex;flex: 1;padding: 8px;">Mom</div>
+                    <div style="display: flex;flex: 2; font-size: 10px;text-align: start;padding: 8px;">Last seen today
+                        at10:30AM
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div style="padding:10px;display: flex;justify-content: flex-start;align-items: center;flex: 1;">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="white"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z" />
+                        </svg>
+                    </div>
+                    <div style="display: flex;justify-content: flex-start;align-items: center;flex: 1;"><svg width="1em"
+                            height="1em" viewBox="0 0 16 16" class="bi bi-paperclip" fill="white"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z" />
+                        </svg>
+                    </div>
+                    <div style="display: flex;justify-content: flex-start;align-items: center;flex: 1;"><svg width="1em"
+                            height="1em" viewBox="0 0 16 16" class="bi bi-three-dots-vertical" fill="white"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div id="chatbox"></div>
+            <div class="bottominput"><input id="inputid" type="text" placeholder="Type a message"
+                    style="display: flex;justify-content: flex-end;align-items: flex-end;background: white;flex: 5;">
+                <div style="display: flex;justify-content: center;align-items: flex-end;background:#075E54 ;flex: 1;border-radius: 50%;padding: 10px;"
+                    onclick="chat()">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-mic-fill" fill="white"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0V3z" />
+                        <path fill-rule="evenodd"
+                            d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z" />
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
